@@ -22,3 +22,12 @@ example:
 	"admin_password":"meow",
 	"refill_amount": 100
 }
+
+If you want to run locally, comment out 
+`client = MongoClient('mongodb://db:27017')`
+and comment in
+`client = MongoClient('mongodb://localhost:27017')`
+
+I included docker compose in it so If you have docker, feel free to 
+`docker build`
+`docker compose`
